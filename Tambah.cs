@@ -34,7 +34,7 @@ namespace Latihan_buat_UTS
 
         public Barang GetBarang()
         {
-            Jumlah_barang.Text = "0";
+            
             Barang barang = new Barang();
             barang.nama_barang = Nama_barang.Text;
             barang.jenis_barang = Jenis_barang.Text;

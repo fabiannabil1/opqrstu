@@ -41,7 +41,7 @@ namespace Latihan_buat_UTS.Model
         public bool insert(Barang barang)
         {
             bool isSuccess = false;
-            string query = "INSERT INTO Barang (nama_barang, jenis_barang, jumlah) VALUES (@nama_barang, @jenis_barang, @jumlah)";
+            string query = "INSERT INTO Barang (nama_barang, jenis_barang, jumlah) VALUES (@nama_barang, @jenis_barang,@jumlah)";
 
             using (NpgsqlConnection conn = new NpgsqlConnection(consStr))
             {
